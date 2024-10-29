@@ -30,3 +30,4 @@ print(main())
 
 #! what you found out is that, when xpath copy does not work, you can manually look for location of that variable or text using indexing technique.
 #! also, learnt how to use split() method to get the output we want
+#! it is also important to note that element.text is must, if .text is not used then you will not get text (object value) but reference value
