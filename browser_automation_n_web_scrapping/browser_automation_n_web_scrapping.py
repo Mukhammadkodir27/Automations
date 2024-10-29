@@ -28,7 +28,7 @@ def main():
     driver = get_driver()
     element = driver.find_element(
         by=By.XPATH, value="/html/body/div[1]/div/h1[1]")
-    return element
+    return element.text  # .text to return in text version
 
 
 print(main())
